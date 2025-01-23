@@ -2,7 +2,8 @@ package ecowind.ru.authapi
 
 object TokenAPI {
     const val PREFIX = "/token"
-    const val CREATE = "/login"
+    const val CREATE = "/create"
     const val REFRESH = "/{refreshToken}/refresh"
     const val VALIDATE = "/validate"
+    const val EXTRACT_LOGIN = "/login"
 }
